@@ -15,7 +15,7 @@ namespace lesson40
             Console.WriteLine(strn ?? "немає даних");
 
             string result = str ?? string.Empty;
-
+            //str так і залишився з null, string - string.Empty
             Console.WriteLine("кількість символів у рядку: " + result.Length);
         }
     }
